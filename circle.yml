@@ -1,3 +1,9 @@
+
+general:
+  branches:
+    only:
+      - trunk
+
 test:
  post:
    - mkdir -p $CIRCLE_TEST_REPORTS/junit/
